@@ -1,0 +1,35 @@
+{
+    "name": "simple-todolist-with-react",
+    "version": "1.0.0",
+    "description": "this is simple todolist with react",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run build & npm run serve",
+        "serve": "lite-server --baseDir public",
+        "build": "babel src --out-dir public -w",
+        "test": "npm run"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.22.5",
+        "@babel/core": "^7.22.5",
+        "@babel/preset-react": "^7.22.5"
+    },
+    "dependencies": {
+        "lite-server": "^2.6.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ferrypratamaa-00/simple-todolist-with-react.git"
+    },
+    "keywords": [
+        "simple",
+        "todolist",
+        "react"
+    ],
+    "author": "ferrypratamaa",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ferrypratamaa-00/simple-todolist-with-react/issues"
+    },
+    "homepage": "https://github.com/ferrypratamaa-00/simple-todolist-with-react#readme"
+}
